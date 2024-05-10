@@ -1,10 +1,6 @@
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-body {
-    font-family: var(--paragraph-front);
-    max: width 960px; 
-    padding: 20px;
-}
+
 :root {
     --primary-color:#8ecae6
     --secondary-color:#B6464F
@@ -19,35 +15,55 @@ body {
     -- nav-hover-link-color:
     -- nav-hover-background-color:
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font: var(--paragraph-front);
-    max: width 960px; 
-    padding:20px ;
+    max-width: 960px; 
+    margin: 0 auto;
+    padding: 20px;
 }
-
-{
-    h1, h2, h3, h4, h5, h6,
-    font-family: var(heading-font)
-    color: var(primary-color)
+header, main, footer{
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(heading-font);
+    color: var(primary-color);
 }
 header {
     padding: 20px;
     background-color: var(--accent1-color);
 }
-{
+nav{
+    margin: 25px;
     padding: 25px;
+    column-gap: 10px;
+    
+} 
+img{
+      width: 200px;
 }
 nav {
     background-color:var(--accent1-color);
     font-size: 1.2rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+
 nav a {
-    display: block;
-    color:var(nav--link--color)
+    color:var(nav--link--color);
     text-decoration: none;
     padding: 1rem;
+}
+a{
+    background-color: rgb(141, 197, 197);
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
 }
 
 nav a:link, nav a:visited {
@@ -58,4 +74,3 @@ nav a:hover{
     color:var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-</style>
