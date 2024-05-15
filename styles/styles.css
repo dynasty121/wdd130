@@ -34,11 +34,6 @@ p{
 
 aside {
 width: 200px;
-margin: 1rem;
-border: 1px solid rgba(0, 0, 0, 0.2);/* 1 */
-padding: 1rem;
-background-color: #fafafa;
-color: #333;
 text-align: center;
 }
 aside img {
@@ -63,7 +58,7 @@ text-align: center;
 
 /* class selectors */
 
-box. {
+.box {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
     padding: 1rem;
