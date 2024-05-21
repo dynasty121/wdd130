@@ -1,6 +1,6 @@
 
 :root {
-    --primary-color:#8ecae6;
+    --primary-color:--#8ecae6;
     --secondary-color:#B6464F;
     --accent1-color:#6044D5;
     --accent2-color:#B3CDD1;
@@ -8,10 +8,10 @@
  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
     --heading-font: 'Roboto', serif;
     --paragraph-font: 'Roboto', serif;
-    --nav-background-color:;
-    --nav-link-color:;
-    --nav-hover-link-color:;
-    --nav-hover-background-color:;
+    --nav-background-color:#B3CDD1;
+    --nav-link-color:#8ecae6;
+    --nav-hover-link-color:#6044D5;
+    --nav-hover-background-color:#B6464F;
 }
 *{
     margin: 0;
