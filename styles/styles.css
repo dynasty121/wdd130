@@ -49,7 +49,6 @@ aside {
 }
 
 main img {
-    /* you most likely will have other decleration here */
     float: right;
     width: 150px;
     height: auto;
