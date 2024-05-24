@@ -71,9 +71,9 @@ border-top: 1px solid #000 ;
 text-align: center;
 }
 
-header,.grid, footer{
-    max-width: 840px;
+header, footer, .grid {
     margin: 0 auto;
+    max-width: 840px;
 }
 
 nav{
@@ -94,7 +94,7 @@ main {
     margin: 1rem;
 }
 
-aside{
+aside {
     width: 20rem;
     position: relative;
     grid-column: 1/2;
