@@ -10,9 +10,7 @@ a{
     text-decoration: none;
 }
 
-/* header,main,footer,nav{
-
-} */
+/* header,main,footer,nav{ }*/ 
 header{
     margin: 1rem auto;
     display: grid;
