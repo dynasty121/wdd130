@@ -23,6 +23,9 @@ form fieldset{
     border: 1px solid lightblue;
     padding: 0.1rem 0.5rem;
 }
+b{
+    color: blue;
+}
 #main{
     padding: 0 1%;
     min-height: 20rem;
