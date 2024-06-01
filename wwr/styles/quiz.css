@@ -1,0 +1,48 @@
+html{
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+h1{
+    text-align: center;
+}
+main{
+    padding: 0 2%;
+    min-height: 20rem;
+}
+main form{
+    max-width: 700px;
+    margin: 0 auto;
+}
+form label{
+    display: block;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+}
+form fieldset{
+    margin: 0.2rem 0;
+    border: 1px solid lightblue;
+    padding: 0.1rem 0.5rem;
+}
+#main{
+    padding: 0 1%;
+    min-height: 20rem;
+}
+form input[type="text"],
+form input[type="number"],
+form select, textarea {
+    display: block;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+form input[type="submit"]{
+    border: none;
+    width: 96%;
+    max-width: 400px;
+    padding: 0.8rem;
+    display: block;
+    margin: 0.5rem;
+    background-color: rgba(204, 176, 140, 0.856);
+}
