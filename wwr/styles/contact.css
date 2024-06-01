@@ -1,0 +1,17 @@
+main .companies-info{
+    width: 700px;
+    margin: 1rem auto;
+    text-align: center;
+    background-color: aliceblue;
+}
+.iframe{
+    display: flex;
+    flex-direction: column;
+}
+.companies-info img{
+    background-color: none;
+    border-radius: 50px;
+}
+footer{
+    background-color: rgb(204, 211, 231);
+}
