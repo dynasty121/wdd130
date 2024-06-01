@@ -9,7 +9,6 @@ main .companies-info{
     flex-direction: column;
 }
 .companies-info img{
-    background-color: none;
     border-radius: 50px;
 }
 footer{
