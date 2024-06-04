@@ -26,10 +26,7 @@ form fieldset{
 b{
     color: blue;
 }
-#main{
-    padding: 0 1%;
-    min-height: 20rem;
-}
+
 form div{
     padding-top: 0.5rem;
     font-size: 1rem;

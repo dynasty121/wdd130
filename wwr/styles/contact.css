@@ -1,16 +1,46 @@
-main .companies-info{
-    width: 700px;
-    margin: 1rem auto;
-    text-align: center;
+main{
+    width: 85%;
+    margin: 0 auto;
+}
+.companies-info{
     background-color: aliceblue;
+    text-align: center;
 }
 .iframe{
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 .companies-info img{
     border-radius: 50px;
 }
+h3{
+    text-align: center;
+    margin-top: 1rem;
+}
+.contact-imgs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.contact-imgs img{
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+}
 footer{
     background-color: rgb(204, 211, 231);
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer span{
+    background-color: rgb(216, 216, 22);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+footer span:hover{
+    background-color: rgb(230, 230, 99);
 }
