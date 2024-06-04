@@ -52,7 +52,7 @@ form select, textarea {
     appearance: none;
 }
 
-form input[type="submit"]{
+form button{
     text-align: center;
     border: none;
     width: 96%;
